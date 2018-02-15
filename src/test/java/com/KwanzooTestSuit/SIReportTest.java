@@ -40,7 +40,7 @@ public class SIReportTest {
 
 	@Then("^I genarate new Sales Insight report$")
 	public void i_genarate_new_Sales_Insight_report() throws Throwable {
-		reportinstance.SIReport();
+		reportinstance.SIReport()
 		//reportinstance.SIRReportForSelectiveProgram();
 	}
 	
